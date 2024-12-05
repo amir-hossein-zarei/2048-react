@@ -4,7 +4,7 @@ import StoreProvider from "./StoreProvider";
 export default function Home() {
   return (
     <StoreProvider>
-      <main>
+      <main className="flex min-h-screen flex-col items-center justify-center">
         <BoardGame />
       </main>
     </StoreProvider>
